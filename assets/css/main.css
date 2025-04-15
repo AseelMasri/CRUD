@@ -1,0 +1,91 @@
+#click {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 14px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#click:hover {
+    background-color: #45a049;
+}
+
+button[type="reset"] {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 14px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+button[type="reset"]:hover {
+    background-color: #d32f2f;
+}
+
+#deleteBtn {
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 14px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#deleteBtn:hover {
+    background-color: #e68900;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+thead {
+    background: linear-gradient(to right, #2e7d32, #66bb6a); /* أخضر غامق → فاتح */
+    color: white;
+    text-align: center;
+}
+
+th, td {
+    padding: 14px;
+    text-align: center;
+    border: 1px solid #dcedc8;
+    font-size: 15px;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e8f5e9; 
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f1f8e9;
+}
+
+tbody tr:hover {
+    background-color: #c8e6c9; 
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+th {
+    font-size: 16px;
+    font-weight: bold;
+}
